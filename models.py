@@ -16,7 +16,7 @@ db_con.connect()
 
 class Module:
     """
-    Class description: This abstracts a real life UCL module (like Software Engineering).
+    Class description: This abstracts a real life university module (like Software Engineering).
     Relationships:
         It will be contained in multiple courses.
         It will contain multiple students.
@@ -56,7 +56,7 @@ class Module:
 
     def set_name(self, name):
         """
-        We need to make sure that name is a string
+        need to make sure that name is a string
         """
         assert isinstance(name, str)
         self._name = name
@@ -164,7 +164,7 @@ class Course:
 
 class UCLPerson:
     """
-    Class description: This abstracts an UCL Person (like David or any student).
+    Class description: This abstracts an UCL Person (like a lecturer or any student).
     Relationships:
         It will extend the TeachingAssistant, Teacher and Student class.
     Parameters: first_name, middle_name, last_name
