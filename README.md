@@ -1,2 +1,2 @@
-# UCLChatBot
- blabla
+# UniversityChatBot
+
